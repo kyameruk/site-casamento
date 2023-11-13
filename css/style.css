@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'love story';
+    src: url(../fontes/love\ story\ ttf.ttf);
+}
+
+*{margin: 0;}
+
+#banner{
+    max-width: 800px;
+    margin: auto;
+    
+}
+
+img{
+    
+    width: 100%;
+}
+
+main{
+    background-color: #F2DFE6;
+    padding: 20px;
+}
+
+main p {
+    text-align: justify;
+    text-indent: 40px;
+}
+main h1{
+    text-align: center;
+    padding: 30px;
+}
+
+section{
+    background-color: #DC9694;
+    height: 480px;
+    padding: 10px;
+}
+
+#confirmaçao{
+    background-color: #FFEBF2;
+    font-family: 'love story';
+    text-align: center;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-bottom: 10px;
+   position: relative;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    
+}
+
+#pix{
+    background-color: #FFEBF2;
+    font-family: 'love story';
+    text-align: center;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-bottom: 10px;
+   position: relative; 
+}
+
+#local{
+    background-color: #FFEBF2;
+    font-family: 'love story';
+    text-align: center;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-bottom: 10px;
+   position: relative;  
+}
+
+footer{
+    background-color:#464737 ;
+    color: white;
+    text-align: center;
+    height: 40px;
+    padding-top:20px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
