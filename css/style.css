@@ -84,7 +84,7 @@ section{
     transform:scale(1.5);
 }
 
-a{
+.links{
     text-decoration: none;
     color: black;
     font-family: 'love story';
@@ -116,12 +116,21 @@ a{
 }
 
 footer{
-    background-color:#464737 ;
+    background-color:#DC9694 ;
     color: white;
     text-align: center;
     height: 40px;
     padding-top:20px;
-    font-family: sans-serif;
+    font-family: cursive;
     text-transform: uppercase;
+    
+
 }
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+
 
