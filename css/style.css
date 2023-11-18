@@ -1,8 +1,9 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
 
-
-@font-face {
+  @font-face {
     font-family: 'love story';
     src: url(../fontes/love\ story\ ttf.ttf);
 }
@@ -11,10 +12,36 @@
 
 #banner{
     max-width: 800px;
+    height: 500px;
+    background-image: url('../imagens/bannerdefinitivo.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     margin: auto;
+    margin-bottom: 50px;
     padding-top: 30px;
-    
+    box-shadow: -1px 4px 5px rgba(0, 0, 0, 0.39);
 }
+
+.subtitulo{
+    text-align: center;
+    padding-top: 25px;
+    color: white;
+    font-family:'Caveat' ;
+}
+
+
+
+#titulo {
+    text-align: center;
+    font-size: 80px;
+    color: rgb(59, 19, 28);
+    text-shadow: -4px 4px 4px rgba(255, 255, 255, 0.301);
+    font-family: 'Caveat';
+    font-weight: 30px;
+}
+
 
 img{
     
@@ -34,21 +61,23 @@ main{
    
 }
 
-#historia {
+.historia {
     text-align: justify;
     text-indent: 40px;
-    font-family: 'Kalam', cursive;
+    font-family: 'Caveat', cursive;
     max-width: 500px;
     margin: auto;
     background-color: rgba(0, 0, 0, 0.589);
     padding: 40px;
     border-radius: 30px;
     box-shadow: 1px -1px 10px rgba(0, 0, 0, 0.616);
+    font-size: 30px;
+    margin-bottom: 20px;
 }
 main h1{
     text-align: center;
     padding: 30px;
-    font-family: 'Kalam', cursive;
+    font-family: 'Caveat', cursive;
     text-shadow: 1px -1px 10px black;
 }
 
@@ -72,16 +101,21 @@ section{
 }
 
 #confirmaçao:hover{
+   
+    background-color: #d63c20;
     transform:scale(1.5);
-
 }
 
 #pix:hover{
     transform:scale(1.5);
+    
+    background-color: #d63c20;
 }
 
 #local:hover{
     transform:scale(1.5);
+    
+    background-color: #d63c20;
 }
 
 .links{
