@@ -1,170 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
-  @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
-  
-  @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
-
-  @font-face {
-    font-family: 'love story';
-    src: url(../fontes/love\ story\ ttf.ttf);
+*{
+    margin: 0;
+    padding: 0;
 }
 
-*{margin: 0;}
+.banner1{
+    background-color: rgb(160, 62, 62);
+    min-height:600px ;
+    
+}
 
-#banner{
-    max-width: 800px;
-    height: 500px;
-    background-image: url('../imagens/bannerdefinitivo.png');
-    background-position: center center;
+#imagem1{
+    background-color: #fff;
+    background-image: url('../imagens/bannerprincipalajustado.png');
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    margin: auto;
-    margin-bottom: 50px;
-    padding-top: 30px;
-    box-shadow: -1px 4px 5px rgba(0, 0, 0, 0.39);
-}
-
-.subtitulo{
-    text-align: center;
-    padding-top: 25px;
-    color: white;
-    font-family:'Caveat' ;
-}
-
-
-
-#titulo {
-    text-align: center;
-    font-size: 80px;
-    color: rgb(59, 19, 28);
-    text-shadow: -4px 4px 4px rgba(255, 255, 255, 0.301);
-    font-family: 'Caveat';
-    font-weight: 30px;
-}
-
-
-img{
+    position: relative;
     
-    width: 100%;
+}
+
+#imagem1 img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 115px;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+#imagem2{
+    background-color: #fff;
+    background-image: url('../imagens/verde500px.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+}
+
+#texto1{
+    background-color: #fff;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    margin:  auto;
+    text-align: center;
+    position: relative;
+}
+
+#texto1 p{
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ font-size: 20px;
+ color: #a03613;
+ text-align: center;
+}
+
+span{
+    font-size: 35px;
+    margin-bottom: 30px;
+    font-family: 'Indie Flower', cursive;
+    
+}
+
+aside{
+    background-color: #fff;
+    background-image: url('../imagens/fundoflores500px.png');
+    min-height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    text-align: center;
+    
+    font-size: 16px;
+}
+
+aside p{
+    text-shadow:0px 0px 10px #03020249;
+    width: 400px;
+    margin: auto;
+    padding: 10px;
+    color: #6c7437;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Dancing Script', cursive;
+    border: 1px solid #555c28;
+    background-color: #ffffff9c;
+}
+
+h1{
+    font-size: 30px;
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: #52572f;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.411);
 }
 
 main{
-    background-image: url('../imagens/plano.png');
-    background-position:center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    min-height: 480px;
+    background-color: rgb(255, 255, 255);
+    background-image: url('../imagens/plano-de-fundo-texturizado-de-papel-amassado-vintage.jpg.png');
+    margin-bottom: 30px;
     padding: 20px;
-    max-width: 800px;
+    background-position: center;
+    background-size: cover;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+main p{
+    text-align: center;
+    text-overflow: cl;
+    width: 300px;
+    height: 300px;
     margin: auto;
-    color: rgb(247, 241, 241);
+   ;
+    font-family: 'Indie Flower', cursive;
     font-size: 25px;
-   
+    
 }
 
-.historia {
-    text-align: justify;
-    text-indent: 40px;
-    font-family: 'Caveat', cursive;
-    max-width: 500px;
-    margin: auto;
-    background-color: rgba(0, 0, 0, 0.589);
-    padding: 40px;
-    border-radius: 30px;
-    box-shadow: 1px -1px 10px rgba(0, 0, 0, 0.616);
-    font-size: 30px;
-    margin-bottom: 20px;
-}
-main h1{
+#botaopadrinhos{
     text-align: center;
-    padding: 30px;
+    text-transform: uppercase;
     font-family: 'Caveat', cursive;
-    text-shadow: 1px -1px 10px black;
-}
-
-section{
-    background-color: #da7d6c;
-    height: 600px;
-    padding-top: 50px;
-    max-width: 800px;
-    margin: auto;
-}
-
-#confirmaçao{
-    background-color: #FFEBF2;
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    margin: auto;
-    margin-bottom: 10px;
-    transition: .5s;
-    
-}
-
-#confirmaçao:hover{
-   
-    background-color: #d63c20;
-    transform:scale(1.5);
-}
-
-#pix:hover{
-    transform:scale(1.5);
-    
-    background-color: #d63c20;
-}
-
-#local:hover{
-    transform:scale(1.5);
-    
-    background-color: #d63c20;
-}
-
-.links{
+    min-height: 300px;
+    background-color: #ffffff;
+    position: relative;
+    color: #52572f;
     text-decoration: none;
-    color: black;
-    font-family: 'love story';
-    display: block;
-    padding-top: 40%;
-    text-align: center;
-}
-
-
-
-#pix{
-    background-color: #FFEBF2;
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    margin: 50px auto 50px auto;
-    transition: .5s;
-   
-}
-
-#local{
-    background-color: #FFEBF2;
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    padding: 10px;
     margin: auto;
-    transition: .5s;
-   
+    margin-top: 30px;
+    margin-bottom: 100px;
+    background-image: url('../imagens/moldura2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#botaopadrinhos h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+#botaopadrinhos h2:hover{
+    background-color: #973613;
+    color: #ffffff;
+    cursor: pointer;
+    
+}
+
+#navegacao{
+    background-color: #52572f;
+    box-shadow: 0px -4px 5px rgba(0, 0, 0, 0.411);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    height: 300px;
+    
+}
+
+.nav{
+    padding: 10px;
+    
+    border-radius: 50%;
+    align-content: space-between;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    position: relative;
+    padding: 30px;
+    background-color: #FFC685;
+}
+
+#navegacao a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #AB3B15;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bolder;
+    padding: 40px;
+}
+
+#navegacao div:hover{
+    transform: scale(1.1);
+    z-index: 1;
+    background-color: #AB3B15;
+    color: #FFC685;
+}
+
+#navegacao a:hover{
+    color:#FFC685;
 }
 
 footer{
-    background-color:#DC9694 ;
-    color: white;
+    min-height: 100px;
     text-align: center;
-    height: 40px;
-    padding-top:20px;
-    font-family: cursive;
-    text-transform: uppercase;
-    
-
+    background-color: #AB3B15;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
-footer a{
-    text-decoration: none;
-    color: white;
+footer p{
+
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+#insta{
+    background-image: url('../imagens/iconinsta.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
 
-
+#whats{
+    background-image: url('../imagens/iconwpp.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px; 
+}
