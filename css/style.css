@@ -10,7 +10,8 @@
 .banner1{
     background-color: rgb(160, 62, 62);
     min-height:600px ;
-    
+    max-width: 500px;
+    margin: auto;
 }
 
 #imagem1{
@@ -81,13 +82,15 @@ aside{
     background-size: cover;
     padding-top: 100px;
     text-align: center;
-    
+    max-width: 500px;
     font-size: 16px;
+    margin: auto;
 }
 
 aside p{
     text-shadow:0px 0px 10px #03020249;
     min-width: 300px;
+    max-width: 400px;
     margin: auto;
     padding: 10px;
     color: #6c7437;
@@ -97,6 +100,7 @@ aside p{
     font-family: 'Dancing Script', cursive;
     border: 1px solid #555c28;
     background-color: #ffffff9c;
+   
 }
 
 h1{
@@ -114,11 +118,13 @@ main{
     background-color: rgb(255, 255, 255);
     background-image: url('../imagens/plano-de-fundo-texturizado-de-papel-amassado-vintage.jpg.png');
     margin-bottom: 30px;
-    padding: 20px;
+    padding-top: 20px;
     background-position: center;
     background-size: cover;
     margin-top: 100px;
     margin-bottom: 100px;
+    max-width: 500px;
+    margin: auto;
 }
 
 main p{
@@ -127,7 +133,7 @@ main p{
     width: 300px;
     height: 300px;
     margin: auto;
-   ;
+
     font-family: 'Indie Flower', cursive;
     font-size: 25px;
     
@@ -150,6 +156,7 @@ main p{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    max-width: 500px;
 }
 
 #botaopadrinhos h2{
@@ -178,7 +185,8 @@ main p{
     justify-content: space-around;
     align-content: center;
     height: 300px;
-    
+    max-width: 500px;
+    margin: auto;
 }
 
 .nav{
@@ -226,6 +234,8 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    max-width: 500px;
+    margin: auto;
 }
 
 footer p{
