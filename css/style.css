@@ -87,7 +87,7 @@ aside{
 
 aside p{
     text-shadow:0px 0px 10px #03020249;
-    width: 400px;
+    min-width: 300px;
     margin: auto;
     padding: 10px;
     color: #6c7437;
